@@ -11,7 +11,7 @@
     "seed": "node src/seeds/seeds.js",
     "test": "jest --coverage --detectOpenHandles",
     "start": "node server.js",
-    "start:prod": "docker compose -f docker-compose.prod.yml up --build",
+    "start:prod": "docker compose -f docker-compose.prod.yml up --build --force-recreate -d",
     "cron:limpeza": "node src/utils/cron-jobs/limparUsuariosSemSenha.js"
   },
   "keywords": [],
