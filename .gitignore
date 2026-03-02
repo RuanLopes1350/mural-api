@@ -1,0 +1,50 @@
+# directories
+logs
+
+# files
+init.sh
+update1.sh
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Diretórios de dependências
+node_modules/
+jspm_packages/
+
+# Diretórios de builds
+dist/
+build/
+.out/
+
+# IDEs e editores
+.vscode/
+.idea/
+.DS_Store
+
+# Ambiente de produção
+.env
+.env.local
+.env.production
+.env.development
+.env.mailsender
+
+# Kubernetes secrets
+deploy/api-configmap.yaml
+!deploy/api-configmap.example.yaml
+
+# Cache e arquivos temporários
+tmp/
+temp/
+*.tmp
+*.swp
+
+# teste
+coverage/
+
+# Diretório de upload de arquivos
+uploads/
