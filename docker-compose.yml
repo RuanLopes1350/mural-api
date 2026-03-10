@@ -35,7 +35,7 @@ services:
     ports:
       - "3000:3000"
     env_file:
-      - .env.local
+      - ../frontend/.env.local
     environment:
       # Sobrescreve valores do .env.local para produção Docker
       - NEXT_PUBLIC_API_URL=https://api.mural.fslab.dev
