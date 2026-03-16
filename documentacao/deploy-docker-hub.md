@@ -18,7 +18,7 @@ Guia completo para construir as imagens Docker do frontend e backend, publicar n
 
 ```bash
 cd /home/ruanlopes/Documents/ifroevents/backend
-docker build -t ruanlopes1350/ifroevents-api:latest .
+docker build -t ruanlopes1350/mural-api:latest .
 ```
 
 ### Frontend
@@ -31,7 +31,7 @@ cd /home/ruanlopes/Documents/ifroevents/frontend
 docker build \
   --build-arg NEXT_PUBLIC_API_URL=https://api.mural.fslab.dev \
   --build-arg NEXT_PUBLIC_AMBIENTE=production \
-  -t ruanlopes1350/ifroevents-front:latest .
+  -t ruanlopes1350/mural-front:latest .
 ```
 
 ---
